@@ -1,0 +1,6 @@
+server_host = 127.0.0.1
+search_base = dc=REPLACE,dc=ME
+version = 3
+scope = sub
+query_filter = (mail=%s)
+result_attribute = mail

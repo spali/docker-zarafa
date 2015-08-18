@@ -1,0 +1,26 @@
+dn: ou=Users,dc=REPLACE,dc=ME
+objectClass: organizationalUnit
+objectClass: top
+ou: Users
+
+dn: uid=test,ou=Users,dc=REPLACE,dc=ME
+objectClass: posixAccount
+objectClass: top
+objectClass: zarafa-user
+objectClass: inetOrgPerson
+gidNumber: 1000
+cn: Test User
+homeDirectory: /dev/null
+mail: test.user@REPLACE.ME
+uidNumber: 1000
+zarafaAliases: test.user.alias@REPLACE.ME
+zarafaUserServer: Zarafa
+uid: test
+zarafaAccount: 1
+zarafaAdmin: 1
+sn: Test User
+userPassword:: YWJjZGU=
+zarafaQuotaOverride: 1
+zarafaEnabledFeatures: imap
+zarafaDisabledFeatures: pop3
+

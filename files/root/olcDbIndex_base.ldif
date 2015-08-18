@@ -1,0 +1,38 @@
+dn: olcDatabase={1}hdb,cn=config
+changetype: modify
+add: olcDbIndex
+olcDbIndex: cn pres,eq,sub
+-
+add: olcDbIndex
+olcDbIndex: sn pres,eq,sub
+-
+add: olcDbIndex
+olcDbIndex: uid pres,eq,sub
+-
+add: olcDbIndex
+olcDbIndex: displayName pres,eq,sub
+-
+add: olcDbIndex
+olcDbIndex: default sub
+-
+add: olcDbIndex
+olcDbIndex: uidNumber pres,eq
+-
+add: olcDbIndex
+olcDbIndex: gidNumber pres,eq
+-
+add: olcDbIndex
+olcDbIndex: memberUid pres,eq
+-
+add: olcDbIndex
+olcDbIndex: mail pres,eq,sub
+-
+add: olcDbIndex
+olcDbIndex: givenName pres,eq,sub
+-
+add: olcDbIndex
+olcDbIndex: dc eq
+-
+add: olcDbIndex
+olcDbIndex: ou pres,eq,sub
+-

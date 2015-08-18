@@ -1,0 +1,10 @@
+<Proxy http://localhost:8080/caldav/*>
+	Order Allow,Deny
+	Allow from all
+	Deny from none
+</Proxy>
+
+
+ProxyPass /caldav http://localhost:8080/caldav
+ProxyPassReverse /caldav http://localhost:8080/caldav
+

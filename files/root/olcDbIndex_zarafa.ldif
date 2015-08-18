@@ -1,0 +1,14 @@
+dn: olcDatabase={1}hdb,cn=config
+changetype: modify
+add: olcDbIndex
+olcDbIndex: zarafaAliases pres,eq,sub
+-
+add: olcDbIndex
+olcDbIndex: zarafaAccount pres,eq
+-
+add: olcDbIndex
+olcDbIndex: zarafaSendAsPrivilege pres,eq
+-
+add: olcDbIndex
+olcDbIndex: zarafaViewPrivilege pres,eq
+-
